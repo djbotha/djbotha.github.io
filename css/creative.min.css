@@ -2,20 +2,15 @@
  * Start Bootstrap - Creative v3.3.7+1 (http://startbootstrap.com/template-overviews/creative)
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
- .navbar-default,a {
-
+ */.navbar-default,a {
  	-webkit-transition:all .35s;
  	-moz-transition:all .35s
-
  }
 
- header,header .header-content  {
-
+ header,header .header-content {
  	position:relative;
  	width:100%;
- 	text-align:center 
- 	
+ 	text-align:center
  }
 
  body,html {
@@ -131,7 +126,8 @@
  }
 
  @media (min-width:768px) {
- 	.navbar-default {
+ 	.navbar-default
+ 	{
  		background-color:transparent;
  		border-color:rgba(255,255,255,.3)
  	}
@@ -174,7 +170,7 @@
  		color:#F05F40
  	}
 
-
+ 	
  }
 
  header {
@@ -184,7 +180,7 @@
  	background-size:cover;
  	-o-background-size:cover;
  	background-position:center;
- 	background-image:url(../img/header.jpg);
+ 	background-image:url(https://media.giphy.com/media/e6R6NRRhGsWE8/giphy.gif);
  	color:#fff
  }
 
@@ -212,7 +208,8 @@
  }
 
  @media (min-width:768px) {
- 	header {
+ 	header
+ 	{
  		min-height:100%
  	}
 
@@ -242,7 +239,7 @@
  		margin-right:auto
  	}
 
-
+ 	
  }
 
  .section-heading {
@@ -255,11 +252,12 @@
  }
 
  @media (min-width:992px) {
- 	.service-box {
+ 	.service-box
+ 	{
  		margin:20px auto 0
  	}
 
-
+ 	
  }
 
  .service-box p {
@@ -322,7 +320,8 @@
  }
 
  @media (min-width:768px) {
- 	.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+ 	.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category
+ 	{
  		font-size:16px
  	}
 
@@ -330,7 +329,7 @@
  		font-size:22px
  	}
 
-
+ 	
  }
 
  .call-to-action h2 {
@@ -427,3 +426,4 @@
  	background:0 0
  }
 
+ 
