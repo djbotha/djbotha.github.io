@@ -67,42 +67,38 @@
 
  footer ul {
  	display: table;
- 	/*display: inline;*/
  	text-align: center;
- 	/*overflow: auto;*/
  	width: 100%;
-
  	padding-left: 15%;
  	padding-right: 15%;
  }
 
  footer li {
- 	/*display: inline;*/
  	display: table-cell;
  	text-align: center;
  }
 
-footer li:first-child {
-	text-align: left;
-}
+ footer li:first-child {
+ 	text-align: left;
+ }
 
-footer li:last-child {
-	text-align: right;
-}
+ footer li:last-child {
+ 	text-align: right;
+ }
 
  footer li a {
  	color: #000;
  	display: block;
  }
 
-footer li a:hover {
-	text-decoration: none;
-}
+ footer li a:hover {
+ 	text-decoration: none;
+ }
  #footer {
  	display: inline;
  	text-align: center;
  }
-
+ 
  section {
  	padding:100px 0
  }
@@ -306,14 +302,14 @@ footer li a:hover {
  	position:relative;
  	display:block;
  	max-width:650px;
- 	margin:0 auto
+ 	margin:0 auto;
  }
 
  .portfolio-box .portfolio-box-caption {
  	color:#fff;
  	opacity:0;
  	display:block;
- 	background:rgba(240,95,64,.9);
+ 	background:rgba(240,95,64,0.9);
  	position:absolute;
  	bottom:0;
  	text-align:center;
@@ -379,8 +375,7 @@ footer li a:hover {
  }
 
  .no-gutter>[class*=col-] {
- 	padding-right:0;
- 	padding-left:0
+ 	padding:5px;
  }
 
  .btn-default {
