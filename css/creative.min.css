@@ -65,6 +65,44 @@
  	color:rgba(255,255,255,.7)
  }
 
+ footer ul {
+ 	display: table;
+ 	/*display: inline;*/
+ 	text-align: center;
+ 	/*overflow: auto;*/
+ 	width: 100%;
+
+ 	padding-left: 50px;
+ 	padding-right: 50px;
+ }
+
+ footer li {
+ 	/*display: inline;*/
+ 	display: table-cell;
+ 	text-align: center;
+ }
+
+footer li:first-child {
+	text-align: left;
+}
+
+footer li:last-child {
+	text-align: right;
+}
+
+ footer li a {
+ 	color: #000;
+ 	display: block;
+ }
+
+footer li a:hover {
+	text-decoration: none;
+}
+ #footer {
+ 	display: inline;
+ 	text-align: center;
+ }
+
  section {
  	padding:100px 0
  }
