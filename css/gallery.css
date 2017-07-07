@@ -1,0 +1,36 @@
+/*NEW GALLERY HERE*/
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #f05f40;
+    border-radius: 5px;
+    text-align: center;
+    color: #f05f40;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #f05f40;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #f05f40;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #f05f40;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
