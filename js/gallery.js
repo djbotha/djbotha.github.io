@@ -2,7 +2,7 @@
  * Created by Daniel on 2017/07/06.
  */
 $(document).ready(function(){
-  var value = 'pictures';
+  var value = 'video';
   $(".filter").not('.'+value).hide('3000');
   $('.filter').filter('.'+value).show('3000');
 
